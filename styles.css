@@ -1,0 +1,81 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Allows for scrolling if content overflows */
+    margin: 0;
+    background-image: url('movies.jpg');
+    background-size: cover; /* Makes sure the background image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+/* Container for the table */
+.table-container {
+    width: 90%;
+    max-width: 850px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    margin-top: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background: #ffffff;
+    margin-top: 10px;
+}
+
+/* Caption styling */
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #222;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+/* Header cell styling */
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+/* Table header design */
+th {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Alternate row background */
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Hover effect on rows */
+tr:hover {
+    background: #f307c8;
+    transition: 0.3s ease-in-out;
+}
+
+/* Table data styling */
+td {
+    font-weight: 500;
+    color: #333;
+}
+
+/* Add comments and extra details to ensure clarity */
